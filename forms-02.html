@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Super Forms - Sign Up</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="forms-02.css">
+</head>
+<body>
+
+    <!--
+    Create a sign up form that has:
+      username
+      email address
+      password
+      and a submit button!
+    -->
+
+    <div class="wrapper">
+
+        <h1>Sign Up</h1>
+
+        <form id="mySignUpForm" name="mySignUpForm" action="#" method="POST">
+
+            <p>
+                <label for="textField" class="required">User name:</label>
+                <input type="text" name="textField" id="textField" placeholder="User name please..." required />
+            </p>
+
+            <p>
+                <label for="thePassword"  class="required">Passwords:</label>
+                <input type="password"  name="thePassword" id="thePassword" required />
+            </p>
+
+            <p>
+                <label for="eMail" class="required">eMail:</label>
+                <input type="email" id="eMail" name="eMail" required placeholder="someone@example.com"/>
+            </p>
+
+            <p>
+                <label for="register"></label>
+                <input type="submit" id="register" name="register" value="Register Me!" />
+            </p>
+
+        </form>
+
+    </div>
+
+</body>
+</html>

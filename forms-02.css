@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, helvetica, sans-serif;
+    font-size: 0.95em;
+}
+
+h1 {
+    width: 100%;
+    display: block;
+    font-size: 2em;
+    font-family: Calibri, helveticaneue-light;
+}
+
+
+label {
+    margin: 1%;
+    text-align: left;
+    line-height: 1;
+    width: 15%;
+    padding: 1%;
+    display: inline-block;
+    background: rgba(192,192,192,0.2);
+}
+
+input,
+textarea,
+select {
+    width: 70%;
+    margin: 1% 1%;
+    padding: 1%;
+    display: inline-block;
+    background: rgba(192,192,240, 0.1);
+    border: 1px solid #aaa;
+    -moz-border-radius: 0.25em 0.25em 0.25em 0.25em;
+    -webkit-border-radius: 0.25em 0.25em 0.25em 0.25em;
+    border-radius: 0.25em 0.25em 0.25em 0.25em;
+}
+
+label[for="register"] {
+    background: none;
+}
+
+input[type="submit"] {
+    width: 25%;
+    background: rgba(128,128,192, 0.3);
+    -moz-border-radius: 0.5em 0.5em 0.5em 0.5em;
+    -webkit-border-radius: 0.5em 0.5em 0.5em 0.5em;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+}
+
+input[required]{
+    border-bottom-color: #c66;
+    border-bottom-width: 2px;
+}
+
+.wrapper {
+    width: 60%;
+    border: 1px solid #ccc;
+    padding: 1%;
+    margin: 1% auto;
+}
+
+.required {
+    color: #c66;
+}
+
